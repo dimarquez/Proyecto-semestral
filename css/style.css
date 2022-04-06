@@ -1,0 +1,31 @@
+.bg-navbar{
+    background-color: rgb(255, 38, 38);
+}
+.bg-rojo-clarito{
+    background-color: rgb(255, 58, 58);
+    border-color: rgb(255, 58, 58);
+}
+.bg-btn{
+    background-color: rgb(255, 38, 38);
+    border-color: rgb(255, 38, 38);;
+}
+.bg-btn-2{
+    background-color: rgb(255, 81, 0);
+    border-color: rgb(255, 81, 0);
+}
+.tetra-logo {
+  font-style:italic;
+  font-weight:bold;
+  font-size:2em;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.perfil {
+    background-image: url("../img/fondoperfil.jpg");
+}
+
+
+.avatar {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}

@@ -20,9 +20,6 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-
-    
-
 </head>
 <body>
     <!-- Navbar -->
@@ -38,99 +35,13 @@
               <p class="h2 text-white letra-logo me-5">PetShorizos</p>
             </li>
             <li class="nav-item">
-
-              <button type="button" class="btn btn-rojo-clarito bg-rojo-clarito text-white" data-toggle="modal" data-target="#myModal">
-                Iniciar sesion
-              </button>
-  
-              <!-- The Modal -->
-              <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content bg-rojo-clarito">
-  
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                      <h4 class="modal-title">Ingresa los siguientes datos...</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-  
-                    <!-- Modal body -->
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                      <div style="text-align: center;">
-                        <img src="img/logo-pet.png" alt="" width="80">
-                        <form action="pagina-inicio-sesion.html" method="GET">
-                          <div class="form-group">
-                            <label for="txtUser">Usuario:</label>
-                            <input type="text" placeholder="Ej:nombre.Usuario" class="form-control" id="txtUser" name="txtUser">
-                          </div>
-                          <div class="form-group">
-                              <label for="txtPass">Contraseña:</label>
-                              <input type="password" placeholder="Ej:12345" class="form-control" id="txtPass" name="txtPass">
-                          </div>
-
-                          <input type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-success">
-                          <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
-                        </form>
-                      </div>
-                      <!-- Modal footer -->
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>              
-              </li>
-            <li class="nav-item">
-              <button type="button" class="btn  bg-rojo-clarito text-white" data-toggle="modal" data-target="#myModal">
-                Registrarse
-              </button>
-  
-              <!-- The Modal -->
-              <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                  <div class="modal-content bg-rojo-clarito">
-  
-                    <!-- Modal Header -->
-                    <div class="modal-header">
-                      <h4 class="modal-title">Ingresa los siguientes datos...</h4>
-                      <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    </div>
-  
-                    <!-- Modal body -->
-                    <!-- Modal body -->
-                    <div class="modal-body">
-                      <div style="text-align: center;">
-                        <img src="img/logo-pet.png" alt="" width="80">
-                        <form action="pagina-inicio-sesion.html" method="GET">
-                          <div class="form-group">
-                            <label for="txtUser">Ingrese correo electronico:</label>
-                            <input type="text" placeholder="Ej: pa.fernandezr@duocuc.cl" class="form-control" id="txtUser" name="txtUser">
-                          </div>
-                          <div class="form-group">
-                              <label for="txtPass">Crear Contraseña:</label>
-                              <input type="password" placeholder="Ej:12345" class="form-control" id="txtPass" name="txtPass">
-                          </div>
-
-                          <input type="submit" id="btnEnviar" name="btnEnviar" class="btn btn-success">
-                          <input type="reset" id="btnLimpiar" name="btnLimpiar" class="btn btn-danger">
-                        </form>
-                      </div>
-                      <!-- Modal footer -->
-                      <div class="modal-footer">
-                        <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
-                      </div>
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>
+                <a class="nav-link text-white" href="pagina-inicio-sesion.html">Inicio</a>
             </li>
-
             <li class="nav-item">
-              <a class="nav-link text-white" href="tienda-sin-sesion.html">Tienda</a>
+              <a class="nav-link text-white" href="pg-compra.html">Mis Compras</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="tienda.html">Tienda</a>
             </li>
           </ul>
           <form class="d-flex">

@@ -19,11 +19,6 @@
   font-size:2em;
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-.perfil {
-    background-image: url("../img/fondoperfil.jpg");
-}
-
-
 .avatar {
     width: 100px;
     height: 100px;
@@ -36,3 +31,9 @@
     background-color: rgb(255, 100, 100);
     border-color: rgb(255, 100, 100);
 }
+.tetra-logo2 {
+    font-style:italic;
+    font-weight:bold;
+    font-size:1em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }

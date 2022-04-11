@@ -14,8 +14,7 @@
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-    <link rel="stylesheet"
-    href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
@@ -70,7 +69,7 @@
         <div class="row  bg-rojo-clarito" >
           <div class="col-sm-12 ">
             <ul class="nav nav-pills flex-column mt-3  ">
-              <hr>
+                <hr>
               <li class="nav-item activo rounded">
                 <a class="nav-link text-white" href="historial.html">Historial de compra</a>
               </li>
@@ -128,100 +127,152 @@
         </div>
       </div>
 
-      <div class="col-sm-10">
-        <div class="row">
-          <div class="col-sm-4 ">
-            <div class="card mt-4 " style="width: 18rem; margin-left: 10%;">
-              <img class="card-img-top" src="img/palo-mordedra.webp" width="200" alt="Card image cap">
-              <div class="card-body">
-                <h5 class="card-title">Palo Para Morder - $1.500</h5>
-                <hr>
-                <p class="card-text">Es un artefacto especial para perros muy caóticos, los cuales destrozan todo a su paso.</p>
-                <a href="#" class="btn btn-primary bg-btn">Quitar Producto</a>
-              </div>
-            </div>
-          </div>
-          <div class="col-sm-4">
-            <div class="card mt-4" style="width: 18rem;">
-              <img class="card-img-top" src="img/collar.jpg" width="200" alt="Card image cap">
-                <div class="card-body">
-                    <h5 class="card-title">Collar de Perro - $1.500</h5>
-                    <hr>
-                    <p class="card-text">Collar para perro de color rosado con corazones de color plateado, solo para perros facheros.</p>
-                    <a href="#" class="btn btn-primary bg-btn">Quitar Producto</a>
-                </div>
-            </div>
-          </div>
-          <div class="col-sm-4 mt-3 ">
+        <div class="col-sm-10 mt-3 ">
+            <br>
+            <p class="h2 text-center " >Suscripciones</p>
+        
 
-            <div class="card mt-2 " style="width: 18rem;">
-              <div class="card-body">
-                <h5 class="card-title">Detalle de la compra</h5>
-                <hr>
-                <table class="margen-table">
-                  <tr>
-                    <td>Palo para morder</td>
-                    <td> $1.500</td>
-                  </tr>
-                  <tr>
-                    <td>Collar de perro </td>
-                    <td> $1.500</td>
-                  </tr>
-                  <tr>
-                    <td> </td>
-                    <td> </td>
-                  </tr>
-                  <tr>
-                    <td><b>Total</b> </td>
-                    <td><b>$3.000</b></td>
-                  </tr>
+        <p class="text-center ">Esta donacion ira directa a nuestra fundacion, sin fines de lucros, se te otorgara un 5% de descuento al suscribirte:</p>  
+                
+                <br>
+                <table class="table table-bordered ">
+                <thead>
+                    <tr>
+                    <th>Monto de la suscripcion</th>
+                    <th>Tipo de suscripcion</th>
+                    <th>Realizar pago</th>
+                    </tr>
+                </thead>
+                <tbody id="myTable">
+                    <tr>
+                    <td>$10.000</td>
+                    <td>Semanal</td>
+                    <td><body>
+
+                        <div class="container text-dark">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary me-2 bg-btn" data-toggle="modal" data-target="#myModal">
+                            Pagar suscripcion
+                        </button>
+                        
+                        <!-- The Modal -->
+                        <div class="modal" id="myModal">
+                            <div class="modal-dialog">
+                            <div class="modal-content">
+                            
+                                <!-- Modal Header -->
+                                <div class="modal-header">
+                                <h4 class="modal-title">Suscripcion realizada!</h4>
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                </div>
+                                
+                                <!-- Modal body -->
+                                <div class="modal-body">
+                                <h2>Gracias, tu suscripcion ha sido realizada con exito !</h2>
+                                <br>
+                                <br>
+                                <h4>Agradecemos que hayas realizado tu suscripcion, se te ha otorgado un 5% de descuento en todas tus compras.</h4>
+                                
+                                </div>
+                                
+                                <!-- Modal footer -->
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">Cerrar</button>
+                                </div>
+                                
+                            </div>
+                            </div>
+                        </div>
+                        
+                        </div>
+                        
+                        </body></button>
+                    
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>$20.000</td>
+                    <td>Mensual</td>
+                    
+                    <td><body>
+
+                        <div class="container text-dark">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary me-2 bg-btn" data-toggle="modal" data-target="#myModal">
+                            Pagar suscripcion
+
+                        </button>
+                        
+                        
+                    </td>
+                    </tr>
+                    <tr>
+                    <td>$30.000</td>
+                    <td>Anual</td>
+                    <td><body>
+
+                        <div class="container text-dark">
+                        <!-- Button to Open the Modal -->
+                        <button type="button" class="btn btn-primary me-2 bg-btn" data-toggle="modal" data-target="#myModal">
+                            Pagar suscripcion
+
+                        </button>
+                        
+                    </td>
+                    </tr>
+                </tbody>
                 </table>
-          
-                <a href="#" class="btn btn-primary bg-btn mt-3">Comprar</a>
-              </div>
-            </div>
+
+                <p class="text-center ">Recuerda que en todas nuestras boletas se pueden encontrar los codigos de compras.</p>
+                </div>
+
+                <script>
+                $(document).ready(function(){
+                $("#myInput").on("keyup", function() {
+                var value = $(this).val().toLowerCase();
+                $("#myTable tr").filter(function() {
+                    $(this).toggle($(this).text().toLowerCase().indexOf(value) > -1)
+                });
+                });
+                });
+                </script>
 
 
-          </div>
+              
         </div>
-      </div>
-      </div>
-      <div class="row">
-          <div class="col-sm-12"></div>
-      </div>
+        <div class="row">
+            <div class="col-sm-12"></div>
+        </div>
     </div>
-  </div>
-    
+    <!-- Footer -->
+    <div class="p-4 bg-navbar text-white">
+        <div class="d-flex justify-content-between ">
+          <table>
+            <tr>
+              <td><i class="fa-brands fa-instagram me-2"></i></td>
+              <td>@PetShorizos</td>
+            </tr>
+            <tr>
+              <td><i class="fa-brands fa-facebook me-2"></i></td>
+              <td>Petshop Los Shorizos</td>
+            </tr>
+          </table>
+          <table>
+            <tr>
+              <td></td>
+              <td>Llamanos al:</td>
+            </tr>
+            <tr>
+              <td><i class="fa-solid fa-phone me-2"></i></td>
+              <td>+56 9 4636 3004</td>
+            </tr>
+          </table>
+          
 
-  <!-- Footer -->
-  <div class="p-4 bg-navbar text-white">
-    <div class="d-flex justify-content-between ">
-      <table>
-        <tr>
-          <td><i class="fa-brands fa-instagram me-2"></i></td>
-          <td>@PetShorizos</td>
-        </tr>
-        <tr>
-          <td><i class="fa-brands fa-facebook me-2"></i></td>
-          <td>Petshop Los Shorizos</td>
-        </tr>
-      </table>
-      <table>
-        <tr>
-          <td></td>
-          <td>Llamanos al:</td>
-        </tr>
-        <tr>
-          <td><i class="fa-solid fa-phone me-2"></i></td>
-          <td>+56 9 4636 3004</td>
-        </tr>
-      </table>
+        </div>
+        <p class="text-center">©PAGINA CREADA POR NOSOTROS LOS MÁS VIOS</p>
     </div>
-      <p class="text-center">©PAGINA CREADA POR NOSOTROS LOS MÁS VIOS</p>
-  </div>
-  <!-- Footer -->
-
-  <!-- Latest compiled JavaScript -->
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <!-- Footer -->    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>

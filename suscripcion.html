@@ -79,16 +79,44 @@
               <li class="nav-item mt-1">
                 <a class="nav-link text-white" href="pg-compra-sin-nada.html">Cancelar Pedido</a>
               </li>
+              <hr>
               <li class="nav-item mt-1">
-                <a class="nav-link text-white" href="#">Codigo de cupon</a>
+                <p class="ml-3">Código de cupón</p>
               </li>
-              <li class="nav-item mt-1">
+              <li class="nav-item ml-3">
                 <form class="d-flex">
                   <input class="form-control me-2" type="text" placeholder="Codigo de descuento">
                 </form>
               </li>
-              <li class="nav-item mt-1 ">
-                <button class="btn btn-primary  me-2 bg-btn" type="button">Ingresar</button>
+              <li class="nav-item mt-1">         
+                <body>
+                  <div class="container text-dark">
+                    <!-- Button to Open the Modal -->
+                    <button type="button" class="btn btn-primary  me-2 bg-btn mt-1" data-toggle="modal" data-target="#myModal">
+                    Ingresar
+                    </button>
+                    <!-- The Modal -->
+                    <div class="modal" id="myModal">
+                      <div class="modal-dialog ">
+                        <div class="modal-content">
+                          <!-- Modal Header -->
+                          <div class="modal-header">
+                            <h1 class="modal-title ">Error!</h1>
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                          </div>
+                          <!-- Modal body -->
+                          <div class="modal-body">
+                            <h4>Codigo de descuento ingresado no valido!</h4>
+                          </div>
+                          <!-- Modal footer -->
+                          <div class="modal-footer">
+                            <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </body>
               </li>
               <hr>
               <li class="nav-item mt-1">

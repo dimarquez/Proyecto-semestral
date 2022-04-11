@@ -32,3 +32,7 @@
 .margen-table {
 	width: 90%;
 }
+.bg-rojo-mas-clarito{
+    background-color: rgb(255, 100, 100);
+    border-color: rgb(255, 100, 100);
+}
